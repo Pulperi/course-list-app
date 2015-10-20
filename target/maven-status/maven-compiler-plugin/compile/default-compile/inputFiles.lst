@@ -1,5 +1,11 @@
-/home/henri/NetBeansProjects/course-listing-app/src/main/java/com/henri/controllers/DefaultController.java
-/home/henri/NetBeansProjects/course-listing-app/src/main/java/com/henri/domain/CourseLevel.java
-/home/henri/NetBeansProjects/course-listing-app/src/main/java/com/henri/CourseListingAppApplication.java
-/home/henri/NetBeansProjects/course-listing-app/src/main/java/com/henri/domain/Course.java
-/home/henri/NetBeansProjects/course-listing-app/src/main/java/com/henri/domain/ExamType.java
+/home/henri/NetBeansProjects/course-list-app/src/main/java/com/henri/controllers/ExamController.java
+/home/henri/NetBeansProjects/course-list-app/src/main/java/com/henri/CourseListingAppApplication.java
+/home/henri/NetBeansProjects/course-list-app/src/main/java/com/henri/domain/Course.java
+/home/henri/NetBeansProjects/course-list-app/src/main/java/com/henri/profiles/DevProfile.java
+/home/henri/NetBeansProjects/course-list-app/src/main/java/com/henri/repository/CourseRepository.java
+/home/henri/NetBeansProjects/course-list-app/src/main/java/com/henri/domain/Exam.java
+/home/henri/NetBeansProjects/course-list-app/src/main/java/com/henri/repository/ExamRepository.java
+/home/henri/NetBeansProjects/course-list-app/src/main/java/com/henri/domain/ExamType.java
+/home/henri/NetBeansProjects/course-list-app/src/main/java/com/henri/controllers/DefaultController.java
+/home/henri/NetBeansProjects/course-list-app/src/main/java/com/henri/profiles/ProdProfile.java
+/home/henri/NetBeansProjects/course-list-app/src/main/java/com/henri/domain/CourseLevel.java

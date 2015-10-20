@@ -4,5 +4,7 @@ import com.henri.domain.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CourseRepository extends JpaRepository<Course, Long>{
+
+    public Course findByCourseName(String string);
     
 }

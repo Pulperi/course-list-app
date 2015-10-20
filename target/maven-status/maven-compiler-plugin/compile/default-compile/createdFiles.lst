@@ -1,1 +1,11 @@
+com/henri/profiles/ProdProfile.class
+com/henri/controllers/ExamController.class
+com/henri/domain/ExamType.class
+com/henri/domain/Course.class
+com/henri/domain/CourseLevel.class
+com/henri/controllers/DefaultController.class
+com/henri/domain/Exam.class
+com/henri/repository/ExamRepository.class
+com/henri/profiles/DevProfile.class
 com/henri/CourseListingAppApplication.class
+com/henri/repository/CourseRepository.class

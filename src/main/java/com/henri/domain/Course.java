@@ -1,5 +1,6 @@
 package com.henri.domain;
 
+import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.Column;
 import org.springframework.data.jpa.domain.AbstractPersistable;
@@ -52,6 +53,16 @@ public class Course extends AbstractPersistable<Long> {
     public void setProjectRequired(boolean projectRequired) {
         this.projectRequired = projectRequired;
     }
-    
-    
+
+    public void getCourseLevel(CourseLevel courseLevel) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public List<Exam> getExams() {
+        return exams;
+    }
+
+    public void setExams(List<Exam> exams) {
+        this.exams = exams;
+    }
 }

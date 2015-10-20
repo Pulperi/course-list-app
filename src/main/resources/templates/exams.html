@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Course listing app</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <div th:each="element : ${exams}">
+            <div th:text="${element.key}">dd.MM.YYYY hh:mm</div>
+            <div th:each="exam : ${element.value}">
+                <span th:text="${exam.course.courseName}">Kurssi</span>
+                <span th:text="${exam.examType}">Tyyppi</span>
+                <span th:text="${exam.course.courseCode}">Kurssikoodi</span>
+                <span th:text="${exam.course.courseLevel}">Taso</span>
+                <span th:text="${exam.organizer}">Kuulustelija</span>
+            </div>
+        </div>
+    </body>
+</html>

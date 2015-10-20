@@ -5,9 +5,10 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 import javax.persistence.Temporal;
+import org.springframework.data.jpa.domain.AbstractPersistable;
 
 @Entity
-public class Exam {
+public class Exam extends AbstractPersistable<Long> implements Comparable<Exam>{
     
     private String organizer;
     
@@ -52,5 +53,8 @@ public class Exam {
         this.date = date;
     }
     
-    
+    @Override
+    public int compareTo(Exam other) {
+        return this.date.compareTo(other.date);
+    }
 }
